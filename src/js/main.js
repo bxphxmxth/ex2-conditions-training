@@ -1,4 +1,4 @@
-//1 Comparer l'égalitéentre deux chiffre/nombres
+//1 Comparer l'égalitée ntre deux chiffre/nombres
 //  let rep1 = prompt("Rentre un nombre :");
 
 // let rep2 = prompt("Rentre un nombre :");
@@ -19,39 +19,69 @@
 //     alert(rep1 < rep2);
 // }
 
-//3
-// let nb5 = parseInt(prompt("introduisez votre nombre"));
-// let nb6 = parseInt(prompt("introduisez votre nombre"));
-// let nb7 = parseInt(prompt("introduisez votre nombre"));
-// if(nb5 + nb6 > nb7){
-//     alert(`La somme du nombre ${nb5}
-//       + le nombre ${nb6} est-elle plus grande que le nombre  ${nb7} ? :${nb5 + nb6 > nb7}`);
-// }else{
-//     alert(`La somme du nombre ${nb5}
-//     + le nombre ${nb6} est-elle plus grande que le nombre ${nb7}  ? :${nb5 + nb6 > nb7}`)
+
+// let rep1 = prompt("Entre un chiffre");
+// let rep2 = prompt("Entre un autre wesh");
+
+// if(rep1 < rep2){
+//     alert(rep1 < rep2);
+// }else {
+//     alert(rep1 < rep2);
 // }
 
+
+//3
+
+// let nb5 = parseInt(prompt("un chiffre stp"));
+// let nb6 = parseInt(prompt("un autre"));
+// let nb7 = parseInt(prompt("encore un"));
+
+// if(nb5 + nb6 > nb7){
+//     alert(`La sommbe du nombre ${nb5} + ${nb6} est-elle plus grande que le nombre ${nb7} ? : ${nb6 + nb5 > nb7}`);
+// }else{
+//     alert(`La sommbe du nombre ${nb5} + ${nb6} est-elle plus grande que le nombre ${nb7} ? : ${nb6 + nb5 > nb7}`);
+// }
+
+
+
 //4
-// let quest = prompt("Entrez une phrase");
+
+// let quest = prompt("entre une phrase");
+
 // let questLength = quest.length;
-// let estim = parseInt(prompt("Estimez la longueur de la phrase"));
+
+// let estim = parseInt(prompt("estime la longueur de la phrase"));
+
 // let diff = Math.abs(questLength-estim);
 
 // if(questLength == estim){
-//     alert("Bien joué BG !");
+//     alert("gg bg");
 // }else{
-//     alert(`La réponse est fausse tu es à ${diff} unités de la bonne réponse`);
+//     alert(`Dommage tu etais à ${diff} unité de la bonne reponse`);
 // }
+
+
+
+
+
+
 
 //5
-// let prenom = prompt("Entrez votre prénom");
+
+// let prenom = prompt("c koi ton nom");
 
 // if(prenom.length == 0){
-//     prenom = prompt("Attention vous devez remplir le champ ci-dessous, quel est votre prénom ?");
-//     alert("Bonjour "+ prenom);
+//     prenom = prompt("rempli, c koi ton nom");
+//     alert("bonjour " + prenom);
 // }else{
-//     alert("Bonjour "+ prenom);
+//     alert("bonjour " + prenom);
 // }
+
+
+
+
+
+
 
 //6
 // let abo = confirm("Voulez-vous vous abonner ?");
