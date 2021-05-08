@@ -84,6 +84,7 @@
 
 
 //6
+
 // let abo = confirm("Voulez-vous vous abonner ?");
 // let formula;
 // let confirmation;
@@ -111,37 +112,59 @@
 //         }
 // }
 
-//7
-// let quest1 = prompt("Quelle est la capitale de la Belgique").toUpperCase();
-// let quest2 = prompt("Quel est le prénom du roi des belges ?").toUpperCase();
-// let rep1 = "Bruxelles".toUpperCase();
-// let rep2 = "Philippe".toUpperCase();
 
-// if(quest1 == rep1 && quest2 == rep2){
-//     alert("Félicitations tout est correct");
-// }else if(quest1 == rep1 || quest2 == rep2){
-//     //trompé à la première question :
+
+
+
+
+
+
+
+
+
+
+
+
+
+//7
+
+// let quest1 = prompt("la mer noir?").toUpperCase();
+// let quest2 = prompt("whats a yeet?").toUpperCase();
+
+// let rep1 = "la mer noir".toUpperCase();
+// let rep2 = "yeet".toUpperCase();
+
+// if(quest1 == rep1 && quest2 == rep2 ){
+//     alert("bravo tout est correct");
+// }else if (quest1 == rep1 || quest2 == rep2){
 //     if(quest1 != rep1){
-//         alert("Tu y es presque, la question 1 est incorrecte !");
-//     //trompé à la deuxième question :
+//         alert("presque, la rep 1 est fausse")
 //     }else{
-//         alert("Tu y es presque, la question 2 est incorrecte !");
+//         alert("presque la rep 2 est fausse");
 //     }
 // }else{
-//     alert("Vous avez échoué, rien n'est correct !");
+//     alert("tout est faux wesh");
 // }
+
+
+
+
+
+
 
 //8
-// let age = parseInt(prompt("Quel est votre âge ?"));
 
-// if(age <= 0){
-//     alert("Vous n'êtes même pas né");
-// }else if (age < 18 ){
-//     alert("Vous êtes mineur, l'accès est réservé aux adultes");
-// }else if(age == 18){
-//     alert("Vous pouvez y aller mais c'est tout juste !");
-// }else if(age > 100){
-//     alert("vous êtes encore vivant ? Évitez de voir ce film pour le rester.");
-// }else{
-//     alert("Vous êtes majeur, vous pouvez réserver");
-// }
+
+let age = parseInt(prompt("c koi ton age"));
+
+if(age <= 0){
+    alert("t meme pas né");
+}else if(age < 18){
+    alert("t mineur");
+}else if(age == 18){
+    alert("tu peux mais c tt juste");
+}else if(age > 100){
+    alert("tjrs vivant?");
+}else{
+    alert("vous etes majeur easy peazy lemon squeezy");
+}
